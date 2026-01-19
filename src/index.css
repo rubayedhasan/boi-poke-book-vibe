@@ -1,0 +1,21 @@
+/* import google font "Work Sans" & "Playfair Display"  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* import:: tailwindcss & daisy UI */
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes:
+    light --default,
+    dark --prefersdark,
+    cupcake,
+    bumblebee;
+}
+
+/* common styles  */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.font-playfair-display-custom {
+  font-family: "Playfair Display", serif;
+}
